@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------navigation bar---------------- */
+.container{
+    margin-left: 150px;
+    margin-right: -55px;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.navbar{
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+    background-color: white;
+    height: 50px;
+    font-family:'Roboto Mono', monospace;;
+    
+}
+.navbar nav{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 2px 20px;
+}
+
+.navbar .nav-logo{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px 20px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+.navbar .nav-list ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 2px 20px;
+}
+.navbar .nav-list a{
+    text-decoration: none;
+    text-align: right;
+    font-size: 17px;
+    color: #333;
+}
+
+/* ------------main page------------------ */
+
+
+.mainpage img{
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    position: relative;
+    border-radius: 3px;
+    width: 90%;
+}
+ .project-heading{
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family:'Roboto Mono', monospace;;
+    
+ }
+.line{
+    color: #333;
+    max-width: 80%;
+   margin-bottom:20px ;
+   margin-top: 10px;
+
+}
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-list h2{
+    font-style: 18px;
+    font-weight: 700;
+    padding: 5px 5px;
+    border: 1px solid #333;
+    background-color: #555;
+    color: #fff;
+    max-width: 200px;
+}
+.project-list img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.about{
+    margin-top: 30px ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-bottom: 100px;
+}
